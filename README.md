@@ -1,24 +1,30 @@
-# Sorting_Visualizer
+# Sorting Visualizer
+A web application showcasing the inner workings of various sorting algorithms through dynamic visualizations.
 
-A web application showcasing the inner workings of sorting algorithms.
+## Implemented Algorithms
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Merge Sort
+* Quick Sort
+* Heap Sort
+  
+## Features
+* Colored Representation of Steps:
+  * Blue: Default state
+  * Yellow: Currently being compared
+  * Red: Identified as incorrect and needs to be moved
+  * Green: In the correct position
 
-Implemented algorithms:
-1) Bubble sort
-2) Selection sort
-3) Insertion sort
-4) Merge sort
-5) Quick sort
-6) Heap sort
+* Visualization Controls:
+  * Speed of Visualization: Five speed levels to adjust the animation speed
+  * Data Size: Option to change the size of the data set
+  * New Data Generation: Randomly generate new data sets for sorting
 
-## Features:
-1) Colored representation of step being executed.
-  1.1) Blue:default
-  1.2) Yellow: Being compared
-  1.3) Red: Identified as in incorrect position and to be moved
-  1.4) Green: In correct position
-2) 3 Controls for visualizations
-  2.1) Speed of visualization (5 speed levels)
-  2.2) Data size ()
-  2.3) Generation of new data (Randomly generate new data).
-4) Time and Space complexity of algorithm being visualized.
+* Algorithm Complexity Information:
+  * Displays the time and space complexity of the currently selected algorithm
 
+## Technologies Used
+* HTML
+* CSS
+* JavaScript
